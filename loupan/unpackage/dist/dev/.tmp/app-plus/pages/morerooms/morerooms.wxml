@@ -1,0 +1,1 @@
+<view class="morerooms"><more-top vue-id="1" bind:__l="__l"></more-top><room-list vue-id="2" bind:__l="__l"></room-list><selected vue-id="3" bind:__l="__l"></selected></view>

@@ -1,0 +1,39 @@
+.roombtn {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 99999;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20rpx 30rpx;
+  background-color: #fff;
+  -webkit-box-shadow: 0 -2rpx 20rpx rgba(0, 0, 0, 0.06);
+          box-shadow: 0 -2rpx 20rpx rgba(0, 0, 0, 0.06);
+}
+.roombtn .btn {
+  width: 45%;
+  color: #fff;
+}
+.roombtn .booking {
+  background: -webkit-gradient(linear, right top, left top, from(#ff555f), to(#ff888d));
+  background: -o-linear-gradient(right, #ff555f, #ff888d);
+  background: linear-gradient(270deg, #ff555f, #ff888d);
+}
+.roombtn .calling {
+  background: -webkit-gradient(linear, right top, left top, from(#ffc800), to(#fd6));
+  background: -o-linear-gradient(right, #ffc800, #fd6);
+  background: linear-gradient(270deg, #ffc800, #fd6);
+}
+

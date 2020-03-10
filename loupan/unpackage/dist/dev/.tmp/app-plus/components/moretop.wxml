@@ -1,0 +1,1 @@
+<view class="more-top"><navigator class="back" url="/pages/index/index"><text class="iconfont"></text>返回</navigator><text class="iconfont searchicon"></text><view class="clearfix"></view></view>

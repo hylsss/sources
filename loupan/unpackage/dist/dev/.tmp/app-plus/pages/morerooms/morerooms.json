@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "more-top": "/components/moretop",
+    "room-list": "/components/roomlist",
+    "selected": "/components/selected"
+  }
+}

@@ -1,0 +1,35 @@
+.shademenu {
+  width: 360rpx;
+}
+.shademenu view {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: left;
+}
+.shademenu view .link {
+  font-size: 32rpx;
+  color: #666;
+  padding: 30rpx 60rpx;
+  width: 100%;
+}
+.shademenu view .link:first-child {
+  border-bottom: 2rpx solid #e6e6e6;
+  padding: 40rpx 60rpx;
+}
+.shademenu view text {
+  margin-right: 10rpx;
+  font-size: 38rpx;
+  color: #b2b2b2;
+}
+

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "map": "/components/map",
+    "footer": "/components/footer",
+    "room-btn": "/components/roomBtn"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "uni-app",
+  "usingComponents": {
+    "header": "/components/header",
+    "room-price": "/components/roomprice",
+    "room-list": "/components/roomlist",
+    "footer": "/components/footer"
+  }
+}

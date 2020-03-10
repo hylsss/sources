@@ -1,0 +1,1 @@
+<view class="room-map"><map latitude="{{latitude}}" longitude="{{longitude}}" markers="{{covers}}" id="roommap"></map></view>

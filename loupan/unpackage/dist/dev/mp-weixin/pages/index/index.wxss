@@ -1,0 +1,49 @@
+.scroll {
+  width: 100%;
+  height: 290rpx;
+  margin-top: 8rpx;
+}
+.scroll swiper {
+  width: 100%;
+  height: 290rpx;
+}
+.scroll .swiper-item {
+  width: 100%;
+  height: 100%;
+}
+.scroll .swiper-item image {
+  width: 95%;
+  height: 290rpx;
+  margin: 5rpx 10rpx 10rpx 10rpx;
+  border-radius: 10rpx;
+}
+.menuList {
+  padding: 0 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 20rpx;
+}
+.menuList .menuItem {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  text-align: center;
+}
+.menuList .menuItem .menuimg {
+  width: 100rpx;
+  height: 100rpx;
+}
+.menuList .menuItem .menutxt {
+  display: block;
+  font-size: 28rpx;
+  color: #666;
+}
+

@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/morerooms/morerooms",
+    "pages/login/login",
+    "pages/roomdetail/roomdetail",
+    "pages/history/history",
+    "pages/appointmentRoom/appointmentRoom",
+    "pages/aboutus/aboutus"
+  ],
+  "window": {
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "loupan",
+  "compilerVersion": "2.3.7",
+  "usingComponents": {}
+}

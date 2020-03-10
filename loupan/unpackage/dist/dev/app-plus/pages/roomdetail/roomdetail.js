@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"detail-footer{ padding-bottom: ",[0,130],"; }\n",],undefined,{path:"./pages/roomdetail/roomdetail.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/roomdetail/roomdetail.wxml') } }));

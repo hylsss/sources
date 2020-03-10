@@ -1,0 +1,84 @@
+.header {
+  padding: 32rpx 20rpx 20rpx 20rpx;
+  background-color: #fff;
+}
+.header .search-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 90rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header .search-box .search-left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border: 2rpx solid #eaeaea;
+  width: 90%;
+  padding: 15rpx 8rpx;
+  border-radius: 8rpx;
+  -webkit-box-shadow: 0 2rpx 6rpx 2rpx hsla(0, 9%, 77%, 0.14);
+          box-shadow: 0 2rpx 6rpx 2rpx hsla(0, 9%, 77%, 0.14);
+}
+.header .city {
+  border-right: 2rpx solid #eee;
+  width: 20%;
+  padding-right: 20rpx;
+}
+.header .city .txt {
+  display: block;
+  font-size: 28rpx;
+  color: #333;
+  float: left;
+  margin: 0 5rpx;
+  line-height: 2;
+}
+.header .city .map {
+  font-size: 48rpx;
+  font-weight: 700;
+}
+.header .text-body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 20rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header .text-body .search {
+  margin-right: 10rpx;
+  color: #999;
+}
+.header .text-body .uni-input-placeholder {
+  color: #ccc;
+  font-size: 26rpx;
+}
+.user {
+  font-size: 48rpx;
+  margin-left: 10rpx;
+  color: #888;
+}
+
