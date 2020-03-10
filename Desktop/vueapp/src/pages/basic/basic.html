@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="MobileOptimized" content="320">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-orientation" content="portrait">
+    <meta name="full-screen" content="yes">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="browsermode" content="application">
+    <meta name="x5-page-mode" content="app">
+    <meta name="msapplication-tap-highlight" content="no">
+    <title></title>
+    <script src="../../../static/script/pub/jquery/jquery.min.js"></script>
+    <script src="../../../static/script/pub/jquery.serializeJSON/jquery.serializejson.js"></script>
+    <script src="../../../static/script/pub/js-cookie/js.cookie.min.js"></script>
+    <script src="../../../static/script/pub/vue/vue.min.js"></script>
+    <script src="../../../static/script/pub/vue-router/vue-router.min.js"></script>
+    <script src="../../../static/script/pub/vuex/vuex.min.js"></script>
+    <script src="../../../static/script/pub/axios/axios.min.js"></script>
+    <link rel="stylesheet" href="../../../static/css/pub/vue-table.css">
+    <!-- <link rel="stylesheet" type="text/css" href="../../../static/layui/css/layui.mobile.css"> -->
+    <script type="text/javascript" src="../../../static/script/pub/vue-table.js"></script>
+    <script type="text/javascript" src="../../../static/layui/layui.js"></script>
+    <script>
+        var baseUrl = "";
+        var ctxImg = "../../static";
+    </script>
+    <script>
+        (function() {
+            var IEvar = '10',
+                IEnum = navigator.userAgent.toLowerCase();
+            if (IEnum.indexOf("msie") > -1) {
+                if (Number(IEnum.match(/msie ([\d.]+)/)[1]) < IEvar) {
+                    alert("请升级浏览器,IE10以下暂不支持");
+                }
+            } else {
+                if (window.localStorage && window.sessionStorage) {
+                    try {
+                        sessionStorage.setItem('TextLocalStorage', 'hello world');
+                        sessionStorage.removeItem('TextLocalStorage');
+                        localStorage.setItem('TextLocalStorage', 'hello world');
+                        localStorage.removeItem('TextLocalStorage');
+                    } catch (e) {
+                        alert('您的浏览器太旧或者开启了隐私模式/无痕模式，无法浏览网页，请更换浏览器或使用常规模式，给您带来的不便，表示抱歉！')
+                    }
+                } else {
+                    alert("请升级浏览器");
+                };
+            }
+        })();;
+        (function() {
+            if ("undefined" === typeof(Promise)) {
+                document.write('<script src="//cdn.bootcss.com/es6-promise/4.0.5/es6-promise.auto.min.js"><\/script>');
+            };
+            if ("undefined" === typeof(fetch)) {
+                document.write('<script src="//cdn.bootcss.com/fetch/2.0.1/fetch.min.js"><\/script>');
+            }
+        })();
+    </script>
+</head>
+
+<body>
+    <div id="loading"></div>
+    <div id="page" style="display:none;">
+        <router-view name="header" id="header"></router-view>
+        <router-view name="nav" id="nav"></router-view>
+        <router-view id="content"></router-view>
+    </div>
+</body>
+</html>

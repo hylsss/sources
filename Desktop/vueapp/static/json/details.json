@@ -1,0 +1,19 @@
+{
+    "error": 0,
+    "msg": "",
+    "data": {
+        "price": 458,
+        "sizeW": 22.5,
+        "sizeL": 22.5,
+        "tableware": 15,
+        "quantity": "适合11-12人分享",
+        "deliveryinfo": "最早明天 09:30配送",
+        "pounds": [1, 2, 3, 5],
+        "storage": "0-4℃保藏10小时，5℃食用为佳",
+        "sweety": 4,
+        "delivery": [
+            { "type": 0, "name": "到店提取" },
+            { "type": 1, "name": "配送方式" }
+        ]
+    }
+}
